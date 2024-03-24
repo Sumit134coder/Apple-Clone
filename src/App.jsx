@@ -10,10 +10,12 @@ import {
   GsapTo,
   Home,
 } from "./pages";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div className="bg-black min-h-screen w-full">
+      <Navbar />
       <Router>
         <Routes>
           <Route path="/gsapto" element={<GsapTo />} />

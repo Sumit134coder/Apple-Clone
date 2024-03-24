@@ -30,6 +30,14 @@ canvas {
 }
 
 @layer utilities {
+  .navLink{
+    @apply text-gray-100 hover:text-white transition hover:-translate-y-0.5 hover:font-semibold
+  }
+
+  .view-padding{
+    @apply px-4 md:px-8 
+  }
+
   .flex-center {
     @apply flex items-center justify-center
   }
