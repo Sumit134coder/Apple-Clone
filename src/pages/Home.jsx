@@ -1,10 +1,10 @@
-
+import { HeroSection } from "../views/home";
 
 
 const Home = () => {
   return (
     <main className="container">
-      hello
+     <HeroSection/>
     </main>
   );
 };

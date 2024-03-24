@@ -6,7 +6,7 @@ const navLinks = ["Home", "About", "Shop", "Contact Us"];
 
 const Navbar = () => {
   return (
-    <header className="view-padding sticky">
+    <header className="view-padding fixed w-full bg-black">
       <nav className="flex items-center justify-between py-6">
         <img src={AppleLogo} alt="logo" className="h-6" />
         <div className=" gap-6 items-center hidden md:flex">
